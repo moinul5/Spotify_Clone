@@ -1,0 +1,27 @@
+.border{
+    margin:3px;
+}
+
+.invert
+{
+    filter: invert(1);
+}
+
+.bg-black
+{
+    background-color: black;
+}
+
+.bg-gray
+{
+    background-color: #212121;
+}
+
+.flex
+{
+    display: flex;
+}
+
+.rounder{
+    border-radius: 5px;
+}

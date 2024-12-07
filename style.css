@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+.left{
+    width: 20vw;
+    color: white;
+    padding: 5px;
+}
+
+.right{
+    width: 80vw;
+    color: white;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.home ul li{
+    width: 15px;
+    list-style: none;
+    gap: 15px;
+    padding-top: 14px;
+    font-weight: bold;
+}
+
+.home {
+    padding: 20px;
+    margin: 5px;
+}
+
+.library{
+    padding: 20px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    min-height: 80vh;
+    position: relative;
+    
+}
+
+.library img{
+    width: 15px;
+    padding-right: 15px;
+}
+
+.footer {
+    display: flex;
+    font-size: 10px;
+    color: grey;
+    gap: 13px;
+    position: absolute;
+    bottom: 0;
+    padding: 10px 0;
+    margin: auto;
+    left: 2px;
+
+}
+
+.footer a{
+    color: gray;
+    text-decoration: none;
+}
+
+.footer a:hover{
+    color: white;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgb(40, 42, 42);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.spotifyPlayList{
+    padding: 15px;
+}
+
